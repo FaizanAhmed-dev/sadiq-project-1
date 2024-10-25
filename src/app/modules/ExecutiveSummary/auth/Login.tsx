@@ -58,7 +58,7 @@ export function Login() {
       });
     } catch (error) {
         toast({
-          title: error?.code,
+          title: "Invalid Credentials",
         });
     }
     finally {
