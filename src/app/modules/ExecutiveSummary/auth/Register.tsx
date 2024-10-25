@@ -64,7 +64,7 @@ export function Register() {
 
     } catch (error) {
         toast({
-            title: error?.code,
+            title: "Something went wrong!",
         })
     } finally {
       setLoading(false);
